@@ -9,10 +9,11 @@ const Header = () => {
         <div className="max-w-9xl mx-auto px-4 py-3 flex justify-between items-center">
 
           {/* Logo */}
-          <div className="text-2xl font-bold text-blue-600">
-            <NavLink>
-              <img src={logo1} className='h-8 w-auto' alt="" />
-            </NavLink>
+          <div className="text-2xl font-bold ">
+            <a href='#' className="relative">
+              Somanath<span className='text-purple-800'>Kakade</span>
+              <span className='timeline-dot absolute left-[0.0rem] top-8 w-4 h-4 rounded-full bg-purple-500'></span>
+            </a>
           </div>
 
           {/* Desktop Menu */}

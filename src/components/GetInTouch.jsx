@@ -4,7 +4,7 @@ import React from 'react'
 const GetInTouch = () => {
   return (
     <>
-        <div className='bg-black py-16 px-5'>
+        <div id='contact' className='bg-black py-16 px-5'>
                 <div className='pb-16'>
                     <h1 className='text-3xl pb-3 font-bold text-center '>Get In <span className='text-purple-400'>Touch</span></h1>
                     <p className='text-center'>Have a project in mind or want to collaborate? Let's talk!</p>

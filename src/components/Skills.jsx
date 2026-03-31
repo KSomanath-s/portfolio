@@ -4,7 +4,7 @@ import React from 'react'
 const Skills = () => {
     return (
         <>
-            <div className='bg-black py-16 px-5'>
+            <div id='skill' className='bg-black py-16 px-5'>
                 <div className='pb-20'>
                     <h1 className='text-3xl pb-3 font-bold text-center '>My <span className='text-purple-400'>Skills</span></h1>
                     <p className='text-center'>Technologies I work with to bring ideas to life</p>

@@ -1,6 +1,8 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import aboutImage from "../assets/about.png"
+// import aboutImage from "../assets/about.png";
+import SmallImage from "../assets/small-image.png";
+
 const About = () => {
     return (
         <>
@@ -34,9 +36,9 @@ const About = () => {
                     <div className='pt-10 md:pt-0'>
                         <div className='flex justify-center '>
                             <img
-                                src={aboutImage}
+                                src={SmallImage}
                                 alt=""
-                                className="rounded-lg animate-bounce [animation-duration:5s] shadow-xl hover:scale-105 transition duration-500"
+                                className="w-96 h-auto rounded-full animate-bounce [animation-duration:5s] shadow-xl hover:scale-105 transition duration-500"
                             />
                         </div>
                     </div>

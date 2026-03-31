@@ -1,10 +1,12 @@
 import React from 'react'
-import AboutMeImage from "../assets/about-me.jpg";
+// import AboutMeImage from "../assets/about-me.jpg";
 import { Brush, Code, Lightbulb } from 'lucide-react';
+import BigImage from "../assets/new-big.jpeg"
+
 const AboutMe = () => {
     return (
         <>
-            <div className='bg-black py-16 px-5'>
+            <div id='about' className='bg-black py-16 px-5'>
                 <div className='pb-20'>
                     <h1 className='text-3xl pb-3 font-bold text-center '>About <span className='text-purple-400'>Me</span></h1>
                     <p className='text-center'>Get to know more about my background and passion</p>
@@ -12,7 +14,7 @@ const AboutMe = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                     <div>
                         <div>
-                            <img src={AboutMeImage} alt="" className='rounded-lg w-full' />
+                            <img src={BigImage} alt="" className='rounded-lg w-full' />
                         </div>
                     </div>
                     <div className='p-5'>

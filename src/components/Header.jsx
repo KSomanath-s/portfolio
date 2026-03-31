@@ -17,12 +17,24 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex space-x-6">
-            <NavLink to='/' className="text-white hover:text-blue-600">Home</NavLink>
-            <NavLink to="/" className="text-white hover:text-blue-600">About</NavLink>
-            <NavLink to="/" className="text-white hover:text-blue-600">Skill</NavLink>
-            <NavLink to="/" className="text-white hover:text-blue-600">Projects</NavLink>
-            <NavLink to="/" className="text-white hover:text-blue-600">Experienc</NavLink>
-            <NavLink to="/" className="text-white hover:text-blue-600">Contact</NavLink>
+            <a href='#' to='/' className="relative text-white hover:text-blue-600 group">Home
+              <span className="absolute left-0 -bottom-1 h-[3px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href='#about' className="text-white hover:text-blue-600 relative group">About
+              <span className="absolute left-0 -bottom-1 h-[3px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href='#skill' className="text-white hover:text-blue-600 relative group">Skill
+              <span className="absolute left-0 -bottom-1 h-[3px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href='#project' className="text-white hover:text-blue-600 relative group">Projects
+              <span className="absolute left-0 -bottom-1 h-[3px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href='#experience' className="text-white hover:text-blue-600 relative group">Experienc
+              <span className="absolute left-0 -bottom-1 h-[3px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href='#contact' className="text-white hover:text-blue-600 relative group">Contact
+              <span className="absolute left-0 -bottom-1 h-[3px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -36,12 +48,12 @@ const Header = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden px-4 pb-4">
-            <NavLink to="/" className="block py-2 text-white">Home</NavLink>
-            <NavLink to="/" className="block py-2 text-white">About</NavLink>
-            <NavLink to="/" className="block py-2 text-white">Skill</NavLink>
-            <NavLink to="/" className="block py-2 text-white">Projects</NavLink>
-            <NavLink to="/" className="block py-2 text-white">Experience</NavLink>
-            <NavLink to="/" className="block py-2 text-white">Contact</NavLink>
+            <a href='#' className="block py-2 text-white">Home</a>
+            <a href='#about' className="block py-2 text-white">About</a>
+            <a href='#skill' className="block py-2 text-white">Skill</a>
+            <a href='#project' className="block py-2 text-white">Projects</a>
+            <a href='#experience' className="block py-2 text-white">Experience</a>
+            <a href='#contact' className="block py-2 text-white">Contact</a>
           </div>
         )}
       </header>

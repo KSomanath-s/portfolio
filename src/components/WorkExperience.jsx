@@ -3,7 +3,7 @@ import React from 'react'
 const WorkExperience = () => {
     return (
         <>
-            <div className='bg-black py-16 px-5'>
+            <div id='experience' className='bg-black py-16 px-5'>
                 <div className='pb-16'>
                     <h1 className='text-3xl pb-3 font-bold text-center '>Work <span className='text-purple-400'>Experience</span></h1>
                     <p className='text-center'>My professional journey so far</p>

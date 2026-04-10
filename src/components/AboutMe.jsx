@@ -1,7 +1,7 @@
 import React from 'react'
 // import AboutMeImage from "../assets/about-me.jpg";
 import { Brush, Code, Lightbulb } from 'lucide-react';
-import BigImage from "../assets/new-big.jpeg"
+import BigImage from "../assets/new-img.jpeg"
 
 const AboutMe = () => {
     return (
@@ -13,8 +13,8 @@ const AboutMe = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                     <div>
-                        <div>
-                            <img src={BigImage} alt="" className='rounded-lg w-full' />
+                        <div className='h-[47rem]'>
+                            <img src={BigImage} alt="" className='rounded-lg w-full h-full' />
                         </div>
                     </div>
                     <div className='p-5'>

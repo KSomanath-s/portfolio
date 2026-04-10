@@ -31,7 +31,7 @@ const WorkExperience = () => {
                                     <h3 className='text-xl font-semibold'>Web Developer</h3>
                                     <span className='px-3 py-1 bg-purple-400 text-white rounded-full text-xs md:text-sm '>2022 - 2025</span>
                                 </div>
-                                <p className='text-gray-400 mb-2'>Freelancing</p>
+                                <p className='text-gray-400 mb-2'>Qodequay Technologies Pvt.Ltd</p>
                                 <p className='text-gray-300'>Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.</p>
                             </div>
                         </div>
